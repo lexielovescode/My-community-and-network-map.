@@ -1,0 +1,566 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px, Helvetica;
+  background: #080e24;
+  color: #626668;
+}
+div#item3 p{
+  font-size: 28px;
+}
+div.personal {
+  color: black;
+  position: relative;
+  font-size: 2em;
+  text-align: center;
+}
+#avatar {
+    width: 256px;
+    height: 256px;
+    border: 10px solid #f19c9c;
+    border-radius: 50%;
+}
+#subtitle {
+  text-align: center;
+}
+#email {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  text-shadow: none;
+}
+
+div.wrap {
+  margin: 0 auto;
+  padding: -10px 0;
+  width: 960px;
+}
+
+section {
+  display: block;
+  position: relative;
+}
+
+ul.networks {
+  position: relative;
+  left: -50px;
+  height: 960px;
+  list-style: none;
+  transition: all 0.09s ease-in;
+  overflow: hidden;
+}
+
+ul.networks li {
+  text-indent: -9999px;
+  display: block;
+  position: absolute;
+  border: 2px solid #394057;
+  /*    opacity: 0.7;*/
+}
+
+ul.networks li span {
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+ul.networks li.active {
+  border-color: #ffbb00;
+  transform: scale(2);
+}
+
+ul.networks li.active.me {
+  transform: scale(1.4);
+}
+
+ul.networks li.me {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #fc3;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.22, rgb(204, 153, 0)), color-stop(1, rgb(255, 219, 112)));
+  top: 353px;
+  left: 523px;
+  border: none;
+  box-shadow: 0 0 40px #c90;
+  z-index: 100;
+  transition: all 0.2s ease-in;
+}
+
+ul.networks li.me span {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+ul.networks li.ps {
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  top: 332px;
+  left: 504px;
+  z-index: 99;
+}
+
+ul.networks li.ps span {
+  /* ps: */
+  
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  background: #78A04C;
+  box-shadow: 5px 1px 40px 0px #78A04C;
+  top: -5px;
+  left: 20px;
+}
+
+ul.networks li.ms {
+  width: 123px;
+  height: 123px;
+  border-radius: 100px;
+  top: 305px;
+  left: 478px;
+  z-index: 98;
+}
+
+ul.networks li.ms span {
+  /* ms: */
+  
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  background: #9013FE;
+  box-shadow: 0 0 16px #9013FE;
+  top: 5px;
+  left: 95px;
+}
+
+ul.networks li.ms span.msbff {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  /* msbff: */
+  
+  background: #823DBE;
+  box-shadow: 0 0 10px #823DBE;
+  top: 5px;
+  left: 20px;
+}
+
+ul.networks li.hs {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  top: 278px;
+  left: 452px;
+  z-index: 97;
+}
+
+ul.networks li.hs span {
+  /* hs: */
+  
+  width: 21px;
+  height: 21px;
+  border-radius: 10px;
+  background: #8B572A;
+  box-shadow: 0px 0px 10px#E2B773;
+  top: 8px;
+  left: 20px;
+}
+
+ul.networks li.hs span.hsbff {
+  /* hsbff: */
+  
+  background: #9D6B1C;
+  box-shadow: 0 0 20px #9D6B1C;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  left: 30px;
+  top: 5px;
+}
+
+ul.networks li.nju {
+  width: 274px;
+  height: 274px;
+  border-radius: 240px;
+  top: 228px;
+  left: 404px;
+  z-index: 96;
+}
+
+ul.networks li.nju span {
+  /* u: */
+  
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  background: #F05200;
+  box-shadow: 0 0 20px #AA4308;
+  top: 220px;
+  left: 28px;
+}
+
+ul.networks li.nju span.ztxs {
+  width: 10px;
+  height: 10px;
+  border-radius: 14px;
+  /* ztxs: */
+  
+  background: #672804;
+  box-shadow: #672804 0 0 30px;
+  top: 32px;
+  left: 28px;
+}
+
+ul.networks li.nju span.njubff {
+  width: 16px;
+  height: 16px;
+  border-radius: 14px;
+  /* ztxs: */
+  
+  background:
+  /* ubff: */
+  
+  background: #FF7703;
+  box-shadow: 0 0 10px #CE5459;
+  ;
+  top: -23px;
+  left: -9px;
+}
+
+ul.networks li.london {
+  width: 369px;
+  height: 369px;
+  border-radius: 182px;
+  top: 182px;
+  left: 356px;
+  z-index: 95;
+}
+
+ul.networks li.london span.lse {
+  background: #3D6ABC;
+  box-shadow: 0 0 20px 0px #3D6ABC;
+  height: 41px;
+  width: 41px;
+  border-radius: 20px;
+  top: 300px;
+  left: 290px;
+}
+
+ul.networks li.london span.fil {
+  background: #81B7D3;
+  box-shadow: 0 0 20px 0px #81B7D3;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  top: 200px;
+  left: -10px;
+}
+
+ul.networks li.london span.lsebff {
+  background: #0CADE1;
+  box-shadow: 0 0 20px 0px #81B7D3;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  top: 38px;
+  left: -15px;
+}
+
+ul.networks li.london span.ecg {
+  background: #2C51F4;
+  box-shadow: 0 0 20px 0px #2C51F4;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  top: -10px;
+  left: 40px;
+}
+
+ul.networks li.jsbc {
+  width: 490px;
+  height: 490px;
+  border-radius: 245px;
+  top: 120px;
+  left: 296px;
+  z-index: 94;
+}
+
+ul.networks li.jsbc span {
+  /* jsbc: */
+  
+  background: #E10000;
+  box-shadow: 0 0 20px 0px #E10000;
+  width: 33px;
+  height: 33px;
+  border-radius: 16px;
+  top: -5px;
+  left: 300px;
+}
+
+ul.networks li.jsbc span.jstv {
+  background: #FF4E5E;
+  box-shadow: 0 0 20px 0px #FF4E5E;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  top: -25px;
+  left: 20px;
+}
+
+ul.networks li.jsbc span.od {
+  background: #B00000;
+  box-shadow: 0 0 20px 0px #FF4E5E;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  top: 35px;
+  left: 35px;
+}
+
+ul.networks li.seattle {
+  width: 600px;
+  height: 600px;
+  border-radius: 300px;
+  top: 64px;
+  left: 242px;
+  z-index: 93;
+}
+
+ul.networks li.seattle span.uw {
+  /* uw: */
+  
+  background: #417505;
+  box-shadow: 0 0 20px 0px #417505;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  top: 300px;
+  left: -20px;
+}
+
+ul.networks li.seattle span.cohort15 {
+  /* uw: */
+  
+  background: #25947E;
+  box-shadow: 0 0 20px 0px #427505;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: 30px;
+  left: -30px;
+}
+
+ul.networks li.seattle span.fiod {
+  /* uw: */
+  
+  background: #00B748;
+  box-shadow: 0 0 20px 0px #00B748;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  top: -30px;
+  left: -20px;
+}
+
+ul.networks li.seattle span.rm {
+  /* uw: */
+  
+  background: #00590A;
+  box-shadow: 0 0 20px 0px #00590A;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  top: 65px;
+  left: 20px;
+}
+
+ul.networks li.seattle span.ofinusa {
+  background: #50E3C2;
+  box-shadow: 0 0 20px 0px #50E3C2;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  top: 500px;
+  left: 490px;
+}
+
+ul#descriptions {
+  list-style: outside none none;
+  position: absolute;
+  left: 850px;
+  top: 85px;
+  font-style: bold;
+}
+
+ul#descriptions h2 {
+  color: black;
+  cursor: pointer;
+  width: 350px;
+  font-size: 15px;
+  font-style: bold;
+  position: relative;
+  transform: scale(1);
+  transition: all 0.15s ease-in 0s;
+  z-index: 101;
+  height: 10px;
+}
+
+ul#descriptions h2#me {
+  font-size: 30px;
+  height: 30px;
+}
+
+ul#descriptions h2:hover {
+  color: #ffbb00;
+  transform: scale(1.08);
+}
+ul#description h2.active {
+  color:  #ffbb00;
+  transform: scale(1.08);
+}
+ul#descriptions li p {
+  background: #CFCFD4 none repeat scroll 0 0;
+  border: 1px solid #1c203c;
+  font-style: bold;
+  border-radius: 5px;
+  color: #0f132c;
+  display: inline;
+  font-size: 15px;
+  left: -250px;
+  line-height: 1.7;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in 0s;
+  visibility: hidden;
+  width: 230px;
+  z-index: 100;
+}
+
+ul#descriptions h2:hover + p {
+  left: -280px;
+  opacity: 0.9;
+  visibility: visible;
+}
+/* CSS3 Animations */
+
+ul.networks li {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: orbit;
+}
+
+ul.networks li.ms span {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: moon;
+}
+
+ul.networks li.hs span {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: moon;
+}
+
+ul.networks li.nju span {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: moon;
+}
+
+ul.networks li.london span {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: moon;
+}
+
+ul.networks li.jsbc span {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: moon;
+}
+
+ul.networks li.seattle span {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: moon;
+}
+
+ul.networks li.ps {
+  -webkit-animation-duration: 5s;
+}
+
+ul.networks li.ms {
+  -webkit-animation-duration: 8s;
+}
+
+ul.networks li.ms span {
+  -webkit-animation-duration: 3s;
+}
+
+ul.networks li.hs {
+  -webkit-animation-duration: 12s;
+}
+
+ul.networks li.hs span {
+  -webkit-animation-duration: 5s;
+}
+
+ul.networks li.nju {
+  -webkit-animation-duration: 30s;
+}
+
+ul.networks li.nju span {
+  -webkit-animation-duration: 4s;
+}
+
+ul.networks li.london {
+  -webkit-animation-duration: 40s;
+}
+
+ul.networks li.london span {
+  -webkit-animation-duration: 6s;
+}
+
+ul.networks li.jsbc {
+  -webkit-animation-duration: 60s;
+}
+
+ul.networks li.jsbc span {
+  -webkit-animation-duration: 7s;
+}
+
+ul.networks li.seattle {
+  -webkit-animation-duration: 100s;
+}
+
+ul.networks li.seattle span {
+  -webkit-animation-duration: 7s;
+}
+
+@-webkit-keyframes orbit {
+  from {
+    -webkit-transform: rotate(0deg)
+  }
+  to {
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@-webkit-keyframes moon {
+  from {
+    -webkit-transform: rotate(0deg)
+  }
+  to {
+    -webkit-transform: rotate(360deg)
+  }
+}
